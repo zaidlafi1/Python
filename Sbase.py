@@ -1,4 +1,5 @@
 from seleniumbase import BaseCase
+
 import random
 
 s = random.randint(1, 20)
@@ -18,6 +19,7 @@ class MyTestClass(BaseCase):
         self.assert_no_js_errors()
         self.assert_element('//*[@id="__next"]/div[3]/div/div[2]/div/div[6]/div')
         self.click('//*[@id="__next"]/div[3]/div/div[2]/div/div[6]/button')
+        self.click('//*[@id="__next"]/div/div/div/div[2]/div/a')
         self.sleep(4)
 
 

@@ -87,5 +87,5 @@ class register(BaseCase):
         self.click('//*[@id="education"]/div[2]/div/div/div[1]/div[2]/div/div/div')
         #  self.find_element('//*[@id="education"]/div[2]/div/div/div[1]/div[2]/div/div/div').send_keys(Keys.ARROW_DOWN + Keys.ENTER)
 
-        self.sleep(6)
+        self.sleep(6)dsdsd
         '''

@@ -1,0 +1,45 @@
+test1.py::MyTestClass::test_test1
+--------------------------------------------------------------------
+Last Page: https://zaid.elevatus.io/jobs/new-job
+  Browser: chrome
+Timestamp: 1645964878  (Unix Timestamp)
+     Date: Sunday, 27 February 2022
+     Time: 3:27:58 PM  (EEST, UTC+02:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/home/zaid/PycharmProjects/pythonProject/test1.py", line 18, in test_test1
+    self.execute_script('jQuery, window.scrollTo(0, 600)')
+  File "/home/zaid/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/seleniumbase/fixtures/base_case.py", line 2436, in execute_script
+    return self.driver.execute_script(script, *args, **kwargs)
+  File "/home/zaid/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 878, in execute_script
+    return self.execute(command, {
+  File "/home/zaid/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "/home/zaid/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: javascript error: jQuery is not defined
+  (Session info: chrome=97.0.4692.71)
+Stacktrace:
+#0 0x55bc2aa42ee3 <unknown>
+#1 0x55bc2a510608 <unknown>
+#2 0x55bc2a51348c <unknown>
+#3 0x55bc2a513286 <unknown>
+#4 0x55bc2a513e42 <unknown>
+#5 0x55bc2a5780a3 <unknown>
+#6 0x55bc2a564272 <unknown>
+#7 0x55bc2a5773bc <unknown>
+#8 0x55bc2a564163 <unknown>
+#9 0x55bc2a539bfc <unknown>
+#10 0x55bc2a53ac05 <unknown>
+#11 0x55bc2aa74baa <unknown>
+#12 0x55bc2aa8a651 <unknown>
+#13 0x55bc2aa75b05 <unknown>
+#14 0x55bc2aa8ba68 <unknown>
+#15 0x55bc2aa6a05f <unknown>
+#16 0x55bc2aaa6818 <unknown>
+#17 0x55bc2aaa6998 <unknown>
+#18 0x55bc2aac1eed <unknown>
+#19 0x7f8eeaa73609 <unknown>
